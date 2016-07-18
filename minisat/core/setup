@@ -1,0 +1,3 @@
+#! /bin/bash
+rm -rf minisat
+g++ -o minisat Main.cc Solver.cc ../utils/Options.cc ../utils/System.cc -lz
